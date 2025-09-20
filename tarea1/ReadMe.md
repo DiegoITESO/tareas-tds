@@ -23,7 +23,11 @@ API_KEY=<tu_api_key_aqui>
 ```bash
 npm install
 ```
-4. Correr el proyecto con el comando
+4. Compilar el codigo con el comando
+```bash
+npm run scripts
+```
+5. Correr el proyecto con el comando
 ```bash
 node .
 ```
