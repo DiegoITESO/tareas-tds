@@ -1,0 +1,23 @@
+{
+  "name": "api_noticias",
+  "version": "1.0.0",
+  "description": "API para listar noticias de un 3rd party.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/index.js",
+    "scripts": "tsc"
+  },
+  "author": "Diego Alonso Gomez M",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
