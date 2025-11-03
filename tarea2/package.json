@@ -1,0 +1,28 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "description": "clase 9 septiembre",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/index.js",
+    "scripts": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.914.0",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "multer": "^2.0.2",
+    "multer-s3": "^3.0.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/multer-s3": "^3.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
